@@ -1,0 +1,63 @@
+
+
+
+@font-face {
+	font-family: 'FF-Mark-Pro';
+	font-style: normal;
+	font-weight: 400;
+    src: url(/assets/fonts/FF-Book.woff) format("woff"),
+    url(/assets/fonts/FF-Book.ttf) format("truetype"),
+}
+/* Add here all your css styles (customizations) */
+.img-avatar{width: 145px;}
+.table-borderless.table td{border-top: none !important;}
+
+.table-borderless.table h3{color: white; font-weight: 700;}
+
+.text-centered h2 { color: #bfb4b4 !important}
+.table-borderless.table img {transition: .5s}
+
+
+
+/*  */
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #302f2f;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	width: 100%;
+}
+
+.demo-1 .main-title {
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title {
+		font-size: 3em;
+	}
+}

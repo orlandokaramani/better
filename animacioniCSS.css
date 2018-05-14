@@ -1,0 +1,355 @@
+.zeze {
+    background-color: black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.relative {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.inner {
+    margin-left: 40%;
+    margin-bottom: 20%;
+}
+
+#Layer_1 {
+    position: absolute;
+    -moz-animation: HIJE 3s ease-in;
+    -webkit-animation: HIJE 3s ease-in;
+    -ms-animation: HIJE 3s ease-in;
+    -o-animation: HIJE 3s ease-in;
+    animation: HIJE 3s ease-in;
+}
+
+.row.zeze {
+    cursor: pointer;
+}
+
+#svg {
+    position: absolute;
+    overflow: visible;
+}
+
+#viza {
+    position: absolute;
+    z-index: 2;
+}
+
+.skemaVizes {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: dash 5s linear;
+    -webkit-animation: dash 5s linear;
+    -moz-animation: dash 5s linear;
+    -o-animation: dash 5s linear;
+}
+
+@-webkit-keyframes HIJE {
+    to {
+        stroke-dashoffset: -100;
+    }
+}
+
+@-moz-keyframes HIJE {
+    to {
+        stroke-dashoffset: -100;
+    }
+}
+
+@-o-keyframes HIJE {
+    to {
+        stroke-dashoffset: -100;
+    }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: -100;
+    }
+}
+
+svg {
+    display: block;
+}
+
+body {
+    margin: -8px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@-webkit-keyframes HIJE {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes HIJE {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes HIJE {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes HIJE {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ITS {
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    /* margin-left:15%; */
+    margin-left: 29%;
+    padding-top: 10%;
+    animation: floatText 5s alternate ease-in-out forwards, HIJE 3s ease-in;
+    -webkit-animation: floatText 5s alternate ease-in-out forwards, HIJE 3s ease-in;
+    -moz-animation: floatText 5s alternate ease-in-out forwards, HIJE 3s ease-in;
+    -o-animation: floatText 5s alternate ease-in-out forwards, HIJE 3s ease-in;
+    /* animation: HIJE 3s ease-in; */
+}
+
+.BETTER {
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    /* margin-left: 70%; */
+    margin-left: 65%;
+    margin-top: -10%;
+    animation: floatText2 5s alternate ease-in-out forwards, HIJE 3s ease-in;
+    -webkit-animation: floatText2 5s alternate ease-in-out forwards, HIJE 3s ease-in;
+    -moz-animation: floatText2 5s alternate ease-in-out forwards, HIJE 3s ease-in;
+    -o-animation: floatText2 5s alternate ease-in-out forwards, HIJE 3s ease-in;
+    /* animation: HIJE 3s ease-in; */
+}
+
+@-webkit-keyframes floatText {
+    from {
+        left: 00%;
+    }
+    to {
+        left: -9%;
+    }
+}
+
+@-moz-keyframes floatText {
+    from {
+        left: 00%;
+    }
+    to {
+        left: -9%;
+    }
+}
+
+@-o-keyframes floatText {
+    from {
+        left: 00%;
+    }
+    to {
+        left: -9%;
+    }
+}
+
+@keyframes floatText {
+    from {
+        left: 00%;
+    }
+    to {
+        left: -9%;
+    }
+}
+
+@-webkit-keyframes floatText2 {
+    from {
+        left: 00%;
+    }
+    to {
+        left: 10%;
+    }
+}
+
+@-moz-keyframes floatText2 {
+    from {
+        left: 00%;
+    }
+    to {
+        left: 10%;
+    }
+}
+
+@-o-keyframes floatText2 {
+    from {
+        left: 00%;
+    }
+    to {
+        left: 10%;
+    }
+}
+
+@keyframes floatText2 {
+    from {
+        left: 00%;
+    }
+    to {
+        left: 10%;
+    }
+}
+
+#shfaqPiken {
+    -webkit-animation: pikaVogel 5s ease-out forwards;
+    -moz-animation: pikaVogel 5s ease-out forwards;
+    -o-animation: pikaVogel 5s ease-out forwards;
+    animation: pikaVogel 5s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes pikaVogel {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes pikaVogel {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes pikaVogel {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes pikaVogel {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pikaVogel {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

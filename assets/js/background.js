@@ -13,7 +13,7 @@
       target = {x: width/6, y: height/4};
 
       largeHeader = document.getElementById('large-header');
-      largeHeader.style.height = '430px';
+      largeHeader.style.height = '433px';
 
       canvas = document.getElementById('demo-canvas');
       canvas.width = width;
@@ -99,9 +99,9 @@
   function resize() {
       width = window.innerWidth;
       height = window.innerHeight;
-      largeHeader.style.height = '366px';
+      largeHeader.style.height = height +'px';
       canvas.width = width;
-      canvas.height = '366px';
+      canvas.height = height;
   }
 
   // animation
